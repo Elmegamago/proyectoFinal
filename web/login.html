@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&amp;display=swap" rel="stylesheet">
+
+    <title>Ingreso al sistema</title>
+    
+</head>
+
+<body class="text-center bg-light" style="font-family: 'Source Sans Pro', sans-serif;">
+    
+    <div class="container justify-content-center" style="margin-top: 200px;">
+        <img class="mx-auto d-block" src="bandera_argentina.jpg" alt="Bandera Argentina" width="150" height="100">
+    </div>
+
+    <h1 class="h4 mt-3">Ingreso al sistema</h1>
+
+    <div class="container-fluid mt-3">
+        <form class="was-validated" action="checkuser" method="post">
+            <div class="row justify-content-center mb-3 mt-3">
+                <div class="col-4 ">
+                  <label for="inputEmail" class="sr-only"> Email:</label>
+                  <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Ingresar Email"  required autofocus>
+                  <div class="valid-feedback">Valido</div>
+                  <div class="invalid-feedback">Por favor complete este campo</div>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-3">
+                <div class="col-4">
+                  <label for="inputPassword" class="sr-only">Contraseña:</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Ingresar contraseña" name="inputPassword" required>
+                  <div class="valid-feedback">Valido</div>
+                  <div class="invalid-feedback">Por favor complete este campo</div>
+                </div>
+            </div>
+            <button type="submit" class="container-fluid btn btn-lg btn-primary btn-block" style="width: 32%;">Ingresar</button>
+          </form>
+        </div>
+
+    
+
+
+
+
+
+    
+</body>
+</html>
